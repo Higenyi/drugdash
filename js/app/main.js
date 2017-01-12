@@ -12,7 +12,9 @@ app.config(['$routeProvider', function ($routeProvider) {
        controller: "DistrictController",
        templateUrl: "js/app/partials/district.html"
    });
-
-
+    $routeProvider.when("/facility", {
+       controller: "FacilityController",
+       templateUrl: "js/app/partials/facility.html"
+      });
 
 }]);

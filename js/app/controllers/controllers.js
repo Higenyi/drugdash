@@ -5,3 +5,7 @@
 app.controller('DistrictController', function ($scope) {
 
 });
+
+app.controller('FacilityController', function ($scope) {
+
+});
