@@ -1,5 +1,5 @@
 ﻿<!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="app" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -37,14 +37,18 @@
     </nav>
 
     <div class="container" id="main-container">
-        <div class="row" id="example">
-            <h1>DrugDash</h1>
+        <div class="row" data-ng-view>
+
         </div>
-    </div><!-- /.container -->
+    </div>
     <!--Bootstrap CDN-->
-    <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.js"></script>>
+    <script src="js/angular/angular.min.js"></script>
+    <script src="js/angular/angular-route.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="http://code.highcharts.com/highcharts.js"></script>
-    <script src="js/dash.js"></script>
+    <script src="js/app/main.js"></script>
+    <script src="js/app/controllers/controllers.js"></script>
+    <script src="js/app/services/services.js"></script>
 </body>
 </html>
