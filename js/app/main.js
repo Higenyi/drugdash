@@ -33,7 +33,7 @@ app.config(['$routeProvider', function ($routeProvider) {
     });
 
     $routeProvider.when("/returns", {
-        controller: "ReturnController",
+        controller: "ReturnsController",
         templateUrl: "js/app/partials/returns.html"
     });
 
