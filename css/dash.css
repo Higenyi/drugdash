@@ -1,8 +1,12 @@
 #main-container{
-	 margin-top: 75px;  
+	 margin-top: 20px;  
 	 
 }
 
 #nav-content{
 	padding-left: 0px;
+}
+
+#row-content{
+    padding-left: 100px;
 }

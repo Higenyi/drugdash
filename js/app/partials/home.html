@@ -1,12 +1,64 @@
 ﻿<section>
-    <div class="row">
-        <h1>Dues payable</h1>
-        <div class="alert alert-danger" data-ng-show="failure" role="alert">
-            {{alertMessage}}
+    <div class="col-md-6">
+        <div class="panel panel-danger">
+            <div class="panel-heading"> Alerts</div>
+            <div class="panel-body">
+                <div class="table-responsive">
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <td>#</td>
+                                <td><b>Facility</b></td>
+                                <td><b>Priority</b></td>
+                                <td><b>Date logged</b></td>
+                                <td><b>Status</b></td>
+                                <td><b>Action</b></td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>Adyang Health Facility</td>
+                                <td>Very High</td>
+                                <td>2/Jan/2017</td>
+                                <td>Pending Action</td>
+                                <td></td>
+                            </tr>
+
+                            <tr>
+                                <td>1</td>
+                                <td>Adyang Health Facility</td>
+                                <td>Very High</td>
+                                <td>2/Jan/2017</td>
+                                <td>Pending Action</td>
+                                <td></td>
+                            </tr>
+
+                            <tr>
+                                <td>1</td>
+                                <td>Adyang Health Facility</td>
+                                <td>Very High</td>
+                                <td>2/Jan/2017</td>
+                                <td>Pending Action</td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
         </div>
-        <span us-spinner="{radius:30, width:8, length: 16}" spinner-key="log-spinner" spinner-start-active="true"></span>
-       <p>{{solomon}}</p>
+
     </div>
+
+    <div class="col-md-6">
+        <div class="panel panel-primary">
+            <div class="panel-heading"> Recent supplies</div>
+            <div class="panel-body"></div>
+        </div>
+
+    </div>
+
+    
 
 
 </section>
