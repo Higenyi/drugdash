@@ -11,7 +11,7 @@ app.controller('HomeController', function ($scope) {
 });
 
 app.controller('InventoryController', function ($scope) {
-    $scope.page_title = "";
+    $scope.page_title = "Inventory";
 });
 
 app.controller('LookupController', function ($scope) {
@@ -23,7 +23,7 @@ app.controller('OrdersController', function ($scope) {
 });
 
 app.controller('ReturnsController', function ($scope) {
-    $scope.page_title = "";
+    $scope.page_title = "Returns";
 });
 
 app.controller('StockController', function ($scope) {

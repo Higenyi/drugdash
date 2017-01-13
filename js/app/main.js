@@ -29,7 +29,7 @@ app.config(['$routeProvider', function ($routeProvider) {
 
     $routeProvider.when("/orders", {
         controller: "OrdersController",
-        templateUrl: "js/app/partials/order.html"
+        templateUrl: "js/app/partials/orders.html"
     });
 
     $routeProvider.when("/returns", {
