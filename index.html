@@ -9,7 +9,7 @@
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
 
-    <title>DrugDash</title>
+    <title>DrugDash | </title>
 
     <!-- Bootstrap CDN -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
@@ -31,66 +31,52 @@
 
                         <ul id="menu-content" class="menu-content collapse out">
                             <li>
-                              <a href="#">
-                                  <i class="fa fa-dashboard fa-lg"></i> Dashboard
-                              </a>
-                          </li>
-
-                          <li  data-toggle="collapse" data-target="#products" class="collapsed active">
-                              <a href="#"><i class="fa fa-gift fa-lg"></i> EMHS<span class="arrow"></span></a>
-                          </li>
-                          <ul class="sub-menu collapse" id="products">
-                          <li class="active"><a href="#">Inventory</a></li>
-                            <li><a href="#">Stock status</a></li>
-                            <li><a href="#">Orders</a></li>
-                            <li><a href="#">Recent Supplies</a></li>
-                            <li><a href="#">Expiry</a></li>
-                            <li><a href="#">Returns</a></li>
-                            <li><a href="#">Alerts</a></li>
-                            <li><a href="#">Emergency Order</a></li>
-                            <li><a href="#">Re-Quantity needed</a></li>
-                            <li><a href="#">Stock lookup</a></li>
+                                <a href="#!/">
+                                    <i class="fa fa-dashboard fa-lg"></i> Dashboard
+                                </a>
+                            </li>
+                            <li data-toggle="collapse" data-target="#products" class="collapsed active">
+                                <a href="#"><i class="fa fa-gift fa-lg"></i> EMHS<span class="arrow"></span></a>
+                            </li>
+                            <ul class="sub-menu collapse" id="products">
+                                <li class="active"><a href="#">Inventory</a></li>
+                                <li><a href="#">Stock status</a></li>
+                                <li><a href="#">Orders</a></li>
+                                <li><a href="#">Recent Supplies</a></li>
+                                <li><a href="#">Expiry</a></li>
+                                <li><a href="#">Returns</a></li>
+                                <li><a href="#">Alerts</a></li>
+                                <li><a href="#">Stock lookup</a></li>
+                            </ul>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-user fa-lg"></i> Profile
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-users fa-lg"></i> Users
+                                </a>
+                            </li>
                         </ul>
-                          <li data-toggle="collapse" data-target="#new" class="collapsed">
-                          <a href="#"><i class="fa fa-car fa-lg"></i> New <span class="arrow"></span></a>
-                      </li>
-                      <ul class="sub-menu collapse" id="new">
-                          <li>New New 1</li>
-                          <li>New New 2</li>
-                          <li>New New 3</li>
-                      </ul>
-
-
-                      <li>
-                          <a href="#">
-                              <i class="fa fa-user fa-lg"></i> Profile
-                          </a>
-                      </li>
-
-                      <li>
-                          <a href="#">
-                              <i class="fa fa-users fa-lg"></i> Users
-                          </a>
-                      </li>
-                  </ul>
-              </div>
-          </div>
-
-      </div>
-      <div class="col-md-11">
-            <div class="row" id="row-content" data-ng-view>
+                    </div>
+                </div>
 
             </div>
-      </div>
-  </div>
-  <!--Bootstrap CDN-->
-  <script src="js/angular/angular.min.js"></script>
-  <script src="js/angular/angular-route.min.js"></script>
-  <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <script src="http://code.highcharts.com/highcharts.js"></script>
-  <script src="js/app/main.js"></script>
-  <script src="js/app/controllers/controllers.js"></script>
-  <script src="js/app/services/services.js"></script>
+            <div class="col-md-11">
+                <div class="row" id="row-content" data-ng-view>
+
+                </div>
+            </div>
+        </div>
+        <!--Bootstrap CDN-->
+        <script src="js/angular/angular.min.js"></script>
+        <script src="js/angular/angular-route.min.js"></script>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="http://code.highcharts.com/highcharts.js"></script>
+        <script src="js/app/main.js"></script>
+        <script src="js/app/controllers/controllers.js"></script>
+        <script src="js/app/services/services.js"></script>
 </body>
 </html>

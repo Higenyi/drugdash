@@ -1,0 +1,13 @@
+<section>
+    <div class="col-md-12">
+        <span us-spinner="{radius:30, width:8, length: 16}" spinner-key="log-spinner" spinner-start-active="true"></span>
+        <div class="alert alert-danger" data-ng-show="failure" role="alert">
+            {{alertMessage}}
+        </div>
+        <div class="alert alert-success" data-ng-show="success" role="alert">
+            {{alertMessage}}
+        </div>     
+       <!-- Page heading.. pass them from the controller -->
+        <h2>{{PageTitle}}</h2>
+    </div>
+</section>
